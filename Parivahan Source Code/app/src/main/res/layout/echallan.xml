@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/centre_background"
+    android:orientation="vertical"
+    android:padding="1dp"
+    android:theme="@style/AppTheme.NoActionBar"
+    tools:context=".EChallan">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:subtitleTextColor="@color/toolbarSubtitle"
+        app:title="E-CHALLAN" />
+
+    <TextView
+        android:id="@+id/textVie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Challan Menu"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/add_challan"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/add_dl_card" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Create Challan"
+        android:textColor="#ffffff"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/edit_challan"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="-94dp"
+        android:background="@drawable/card_edit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:text="Edit Challan"
+        android:textColor="#ffffff"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/view_challan"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="-94dp"
+        android:background="@drawable/dl_card_view" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="235dp"
+        android:text="All Challan"
+        android:textColor="#ffffff"
+        android:textSize="10sp" />
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/centre_button"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="BACK"
+        />
+
+</LinearLayout>

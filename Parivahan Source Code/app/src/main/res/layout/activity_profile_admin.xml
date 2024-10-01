@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="1dp"
+    android:orientation="vertical"
+    android:background="@drawable/centre_background"
+    android:theme="@style/AppTheme.NoActionBar"
+    tools:context=".ProfileAdmin">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:subtitleTextColor="@color/toolbarSubtitle"
+        app:title="@string/toolbarTitle" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="@string/vehicleMenu"/>
+
+    <Button
+        android:id="@+id/addNewCarButton"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/add_new_car"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="Add vehicle"
+        android:textColor="#ffffff"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/editCarButton"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-93dp"
+        android:layout_marginStart="105dp"
+        android:background="@drawable/edit_car" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_marginStart="125dp"
+        android:text="Edit vehicle"
+        android:textColor="#ffffff"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/deleteCarButton"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-93dp"
+        android:layout_marginStart="208dp"
+        android:background="@drawable/delete_car" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="225dp"
+        android:text="Delete vehicle"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        />
+
+    <Button
+        android:id="@+id/carGroupButton"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-94dp"
+        android:layout_marginStart="308dp"
+        android:background="@drawable/group_of_cars" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="330dp"
+        android:text="All vehicle"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="@string/usersMenu"/>
+
+    <Button
+        android:id="@+id/addNewUserButton"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/add_user" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add User"
+        android:layout_marginStart="25dp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        />
+
+    <Button
+        android:id="@+id/editUserButton"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-93dp"
+        android:layout_marginStart="105dp"
+        android:background="@drawable/edit_user" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit User"
+        android:layout_marginStart="135dp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        />
+
+    <Button
+        android:id="@+id/deleteUserButton"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-94dp"
+        android:layout_marginStart="208dp"
+        android:background="@drawable/delete_user" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete User"
+        android:layout_marginStart="230dp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        />
+
+    <Button
+        android:id="@+id/userGroupButton"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-94dp"
+        android:layout_marginStart="308dp"
+        android:background="@drawable/multiple_users_silhouette" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All User"
+        android:layout_marginStart="335dp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        />
+    <TextView
+        android:id="@+id/textVie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="@string/Dlbtn"/>
+
+    <Button
+        android:id="@+id/addDl"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/add_dl_card"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add DL"
+        android:layout_marginStart="25dp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        />
+
+    <Button
+        android:id="@+id/editDl"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="-94dp"
+        android:background="@drawable/card_edit" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:text="Edit DL"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        />
+
+     <Button
+        android:id="@+id/viewDl"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-94dp"
+        android:layout_marginStart="208dp"
+        android:background="@drawable/dl_card_view" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="235dp"
+        android:text="All DL's"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        />
+
+</LinearLayout>

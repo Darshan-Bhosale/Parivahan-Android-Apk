@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/centre_background"
+    android:padding="10dp"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="PARIVAHAN APPLICATION"
+        android:textColor="#60f"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+    <Spinner
+        android:id="@+id/userTypeSpinner"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/user"
+        android:layout_marginStart="30dp"/>
+
+
+    <EditText
+        android:id="@+id/userNameField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-40dp"
+        android:ems="10"
+        android:hint="@string/userNameFieldHint"
+        android:inputType="textEmailAddress" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        app:srcCompat="@drawable/lock" />
+
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="-40dp"
+        android:layout_gravity="center"
+        android:hint="@string/passwordFieldHint"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/loginButton"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loginButtonText"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/newUserButton"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="@string/newUserQ"
+        android:textColorLink="@color/newUser"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="190dp"
+        android:text="@string/groupname"
+        android:textAlignment="textStart"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        />
+
+</LinearLayout>

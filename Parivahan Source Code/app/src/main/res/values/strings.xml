@@ -1,0 +1,97 @@
+<resources>
+    <!--APP Name-->
+    <string name="app_name">PARIVAHAN</string>
+
+    <!--common-->
+    <string name="backButtonText">Back</string>
+    <string name="noResult">No result found!!</string>
+
+    <!--login Page-->
+    <string name="userNameFieldHint">Please enter your User Name</string>
+    <string name="passwordFieldHint">Please enter your Password</string>
+    <string name="newUserQ">Create New User ?</string>
+    <string name="alreadyHaveAnAccountQ">Already have an account ?</string>
+    <string name="loginButtonText">Login</string>
+
+    <!--Registration Page-->
+    <string name="nameFieldHint">Please enter your Name</string>
+    <string name="emailFieldHint">Please enter your Email</string>
+    <string name="mobileFieldHint">Please enter your mobile number</string>
+    <string name="registerPasswordFieldHint">Please enter your Password</string>
+    <string name="registerPasswordConfirmFieldHint">Please re-enter your Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="notDisclosed">Prefer not to say</string>
+    <string name="registerButtonText">Register</string>
+
+    <!--Profile Toolbar-->
+    <string name="toolbarTitle">Welcome</string>
+
+    <!--Profile Admin-->
+    <string name="vehicleMenu">Vehicle\'s Menu</string>
+    <string name="usersMenu">User\'s Menu</string>
+    <string name="Dlbtn">Driving License\'s Menu</string>
+
+    <!--VehicleView-->
+    <string name="header"><h3>ID-- Vehicle Number , Owner Name</h3></string>
+    <string name="searchQueryHint">Search by vehicle number or owner name</string>
+    <string name="searchBar">Search</string>
+
+    <!--Insert new car && View && Delete && Edit-->
+    <string name="carNumber">Vehicle Number</string>
+    <string name="ownerName">Owner Name</string>
+    <string name="type">Type</string>
+    <string name="regDate">Registration Date</string>
+    <string name="insurance">Insurance status</string>
+    <string name="pollution">Pollution status</string>
+
+    <string name="carNumberHint">Enter car number</string>
+    <string name="ownerNameHint">Enter owner name</string>
+    <string name="chooseRegDate">Choose Registration Date</string>
+    <string name="submitButtonText">Submit</string>
+
+    <!--Vehicle Delete-->
+    <string name="areYouSure">Are you sure?</string>
+    <string name="yesButtonText">Yes</string>
+
+    <!--Vehicle Edit-->
+    <string name="updateButtonText">Update</string>
+
+    <!--Profile-->
+    <string name="searchButton">Search</string>
+    <string name="groupname">1.DARSHAN B. BHOSALE (213129)</string>
+
+    <!--User update,delete,view list-->
+    <string name="userupdate">Update</string>
+
+    <!--VehicleView-->
+    <string name="Userheader"><h3>ID-- User Name</h3></string>
+
+    <!-- Driving License Form. -->
+    <string name="dlno">Driving License No.</string>
+    <string name="dlname">Driving License Holder Name</string>
+    <string name="relative">Son/Daughter/Wife of</string>
+    <string name="regd">Issue Date</string>
+    <string name="dlval">License Validity</string>
+    <string name="dob">Date Of Birth</string>
+    <string name="bgrp">Blood Group</string>
+    <string name="vtype">Vehicle Class</string>
+    <string name="lauthc">License Authority (Code)</string>
+    <string name="lauth">License Authority</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+
+    <!--UserView-->
+    <string name="username">User Name</string>
+    <string name="uemail">Email</string>
+    <string name="uphone">Phone No.</string>
+    <string name="gender">Gender</string>
+    <string name="ulistheader"><h3>ID-- User Name</h3></string>
+    <string name="echallan">E-Challan Menu</string>
+
+    <!--DLView-->
+    <string name="dlheader"><h3>ID-- DL No , DL Name</h3></string>
+
+    <!--E-Challan-->
+    <string name="challan_header"><h3>ID-- Vehicle No , Challan No </h3> </string>
+</resources>
