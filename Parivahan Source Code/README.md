@@ -10,7 +10,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/the-it-weirdo/RtoOfficeApp-Android?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/the-it-weirdo/RtoOfficeApp-Android?style=social)
 
-**Rto Office App** is a sample Android application 📱 built for vehicle owners, traffic police and vehicle registration officers to maintain the reords of Insurace status and Pollution check status of vehicles. Dedicated to all Android Developers with ❤️. 
+**Parivahan Android App** is a sample Android application 📱 built for vehicle owners, traffic police and vehicle registration officers to maintain the reords of Insurace status and Pollution check status of vehicles. Dedicated to all Android Developers with ❤️. 
 
 <table style="width:100%">
   <tr>
