@@ -2,7 +2,7 @@
   <img src="git_resources/car.png" height="100"/>
 </p>
 
-# RtoOfficeApp-Android
+# Parivahan Android App
 
 [![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Github Followers](https://img.shields.io/github/followers/the-it-weirdo?label=Follow&style=social)
